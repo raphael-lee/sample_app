@@ -5,11 +5,12 @@ gem 'sqlite3-ruby', '1.3.1', :require => 'sqlite3'
 
 group :development do
   gem 'rspec-rails', '2.0.0.beta.20'
+  gem 'webrat'
 end
 
 group :test do
   gem 'rspec', '2.0.0.beta.20'
-  gem 'spork', '0.8.4'
+  gem 'webrat'
 end
 
 # Bundle edge Rails instead:
